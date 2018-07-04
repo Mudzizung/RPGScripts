@@ -22,7 +22,7 @@ public class Btn_Con : MonoBehaviour
     public void OnNewGame()
     {
         PlayerPrefs.SetInt("DataFromSave", 0);
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();//此处清空所有存储,打包前需注释
         //加载选择角色场景
         SceneManager.LoadScene(1);
     }
