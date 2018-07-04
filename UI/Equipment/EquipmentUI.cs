@@ -105,6 +105,7 @@ public class EquipmentUI : MonoBehaviour
         }
         return true;
     }
+    //冗余,是否重构?
     //穿戴新装备
     public void DressNewItem(Item newItem)
     {
